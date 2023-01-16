@@ -8,12 +8,14 @@
 # Podemos usar muitos parâmetros com esta função. Podemos reduzir a velocidade da saída usando o argumento slow.
 # A API do Google suporta diferentes idiomas, e podemos mencionar os idiomas suportados usando o parâmetro lang.
 
+"""
 from gtts import gTTS
 from playsound import playsound
 
 s = gTTS("Olá, Rayana")
 s.save('sound.mp3')
 playsound('sound.mp3')
+"""
 
 #O pyttsx3 é outro módulo que pode realizar tais conversões e funcionar sem conexão com a 
 # internet. Primeiro, criaremos um objeto que faz referência ao pyttsx3.Engine usando o 
