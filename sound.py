@@ -24,7 +24,8 @@ playsound('sound.mp3')
 # da fila.
 
 import pyttsx3  
-s = pyttsx3.init()  
-data = "Olá, Rayana"  
+s = pyttsx3.init() 
+nome = str(input("Digite seu nome: ")) 
+data = "Olá,", nome
 s.say(data)  
 s.runAndWait()
