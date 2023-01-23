@@ -27,5 +27,5 @@ import pyttsx3
 s = pyttsx3.init() 
 nome = str(input("Digite seu nome: ")) 
 data = "Olá,", nome
-s.say(data)  
+s.say(data) 
 s.runAndWait()
