@@ -25,7 +25,8 @@ playsound('sound.mp3')
 
 import pyttsx3  
 s = pyttsx3.init() 
-nome = str(input("Digite seu nome: ")) 
-data = "Olá,", nome
+#nome = str(input("Digite seu nome: ")) 
+#data = "Olá,", nome, "que saudade de você"
+data = "Olá rayana que saudade de você"
 s.say(data) 
 s.runAndWait()

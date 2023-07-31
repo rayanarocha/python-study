@@ -27,7 +27,7 @@ snake_skin.fill((255,255,255)) #White
 
 apple_pos = on_grid_random()
 apple = pygame.Surface((10,10))
-apple.fill((255,0,0))
+apple.fill((255,0,0)) #red
 
 my_direction = LEFT
 
